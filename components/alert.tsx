@@ -24,7 +24,7 @@ const Alert = ({ preview }: Props) => {
         <a href="" className="contact_link2">
           <FontAwesomeIcon icon={faPhone} size="2x" style={{ color: '#e8b602' }} />
           <span className="pl-2">
-            Call : (+254) 719 230590
+            Call : (+254) 719 230690
           </span>
         </a>
         <a href="mailto:sledgeentertainment8@gmail.com" className="contact_link3">

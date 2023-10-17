@@ -4,7 +4,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 
 import Alert from './alert'
 import Footer from './footer'
-import Meta from './'
+import Meta from "components/meta";
 config.autoAddCss = false;
 
 type Props = {

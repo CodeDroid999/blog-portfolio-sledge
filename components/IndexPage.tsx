@@ -8,6 +8,7 @@ import IntroTemplate from 'intro-template'
 import * as demo from 'lib/demo.data'
 import type { Post, Settings } from 'lib/sanity.queries'
 import Footer from './footer'
+import CustomNavbar from './layout/navbar'
 
 export interface IndexPageProps {
   preview?: boolean
@@ -24,6 +25,7 @@ export default function IndexPage(props: IndexPageProps) {
   return (
     <>
       <IndexPageHead settings={settings} />
+      <CustomNavbar/>
 
       <Layout preview={preview} loading={loading}>
         <Container>

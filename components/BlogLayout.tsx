@@ -13,8 +13,9 @@ export default function BlogLayout({
   return (
     <>
       <div className="min-h-screen bg-blue-100">
-        <CustomNavbar />
-        <AlertBanner preview={preview} loading={loading} />
+        <div className="mb-8">
+          <CustomNavbar />
+        </div>        <AlertBanner preview={preview} loading={loading} />
         <main>{children}</main>
       </div>
     </>

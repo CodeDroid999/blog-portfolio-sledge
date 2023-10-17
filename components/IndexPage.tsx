@@ -25,8 +25,6 @@ export default function IndexPage(props: IndexPageProps) {
   return (
     <>
       <IndexPageHead settings={settings} />
-      <CustomNavbar/>
-
       <Layout preview={preview} loading={loading}>
         <Container>
           <BlogHeader title={title} description={description} level={1} />

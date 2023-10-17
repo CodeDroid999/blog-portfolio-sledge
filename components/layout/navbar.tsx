@@ -14,7 +14,7 @@ const CustomNavbar = () => {
               <Image
                 src="/public/favicon/favicon.png"
                 alt="task"
-                width={100} // Set the width
+                width={130} // Set the width
                 height={60} // Set the height
                 className="h-[40px] w-[100%] md:h-[50px] lg:h-[60px] lg:w-[50px]"
                 id="customfontsize"
@@ -39,7 +39,7 @@ const CustomNavbar = () => {
                   <Image
                     src="https://i.postimg.cc/FRXRmLQ5/log.png"
                     alt="task"
-                    width={150} // Set the width
+                    width={200} // Set the width
                     height={75} // Set the height
                     className="h-[50px] w-[100%] md:h-[50px] lg:h-[60px] lg:w-[50px]"
                   />

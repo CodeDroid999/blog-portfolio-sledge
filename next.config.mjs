@@ -3,6 +3,7 @@ const config = {
   images: {
     remotePatterns: [
       { hostname: 'i.postimg.cc' },
+      { hostname: 'svgshare.com' },
       { hostname: 'cdn.sanity.io' },
       { hostname: 'source.unsplash.com' },
     ],

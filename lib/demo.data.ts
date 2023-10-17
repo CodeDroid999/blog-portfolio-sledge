@@ -54,4 +54,4 @@ export const description = [
   },
 ]
 
-export const ogImageTitle = 'A Next.js Blog with a Native Authoring Experience'
+export const ogImageTitle = ' Sledge Entertainment Limited is a film production company founded in 2021 with the sole purpose of rendering film/video production services. Our services range from pre-production, production to post production. '

@@ -57,30 +57,35 @@ const CustomNavbar = () => {
             href="/"
             className="font-medium text-white hover:text-green-500"
           >
-            Home
+            HOME
           </Link>
 
           <Link
             href="/settings"
             className="font-medium text-white hover:text-green-500"
           >
-            Settings
+            ABOUT
           </Link>
           <Link
             href="/settings"
             className="font-medium text-white hover:text-green-500"
           >
-            Settings
+            SERVICES
           </Link> <Link
             href="/settings"
             className="font-medium text-white hover:text-green-500"
           >
-            Settings
-          </Link> <Link
+            PROJECTS          </Link> <Link
+              href="/settings"
+              className="font-medium text-white hover:text-green-500"
+            >
+            BLOG
+          </Link>
+          <Link
             href="/settings"
             className="font-medium text-white hover:text-green-500"
           >
-            Settings
+            CONTACT US
           </Link>
         </div>
       </div>

@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import NavMenu from './navMenu';
+import React, { useState } from 'react';
+
 import NavigationMenu from './navMenu';
 
 const MobileNavbar = () => {
@@ -38,7 +38,7 @@ const MobileNavbar = () => {
         <div className="flex items-center justify-end mr-3">
           <div className="flex flex-col items-center">
             <FontAwesomeIcon
-              icon={faBars}
+              icon={isMenuVisible ? faTimes : faBars} // Toggle between 'faBars' and 'faTimes' icon
               size="2x"
               style={{ color: "#f2a807", fontSize: "36px", cursor: "pointer" }}
               onClick={toggleMenu}  // Call toggleMenu function on click

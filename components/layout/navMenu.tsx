@@ -5,7 +5,7 @@ const NavigationMenu: React.FC = () => {
   return (
     <div className="bg-white w-100 bg-blue-100">
       <ul className="navbar-nav p-1 bg-blue-100">
-        <li className="nav-item active p-2">
+        <li className="nav-item active p-2 ">
           <Link href="#home" passHref>
             <span className="nav-link  pl-3">Home <span className="sr-only">(current)</span></span>
           </Link>
@@ -23,6 +23,11 @@ const NavigationMenu: React.FC = () => {
         <li className="nav-item p-2">
           <Link href="#projects" passHref>
             <span className="nav-link pl-3">Projects</span>
+          </Link>
+        </li>
+        <li className="nav-item p-2">
+          <Link href="/blog" passHref>
+            <span className="nav-link pl-3">Blog</span>
           </Link>
         </li>
         <li className="nav-item p-2">

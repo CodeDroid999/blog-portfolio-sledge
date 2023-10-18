@@ -54,13 +54,29 @@ const CustomNavbar = () => {
         {/* Right-side links */}
         <div className="flex items-center space-x-3">
           <Link
-            href="/profile"
+            href="/"
             className="font-medium text-white hover:text-green-500"
           >
-            Profile
+            Home
           </Link>
 
           <Link
+            href="/settings"
+            className="font-medium text-white hover:text-green-500"
+          >
+            Settings
+          </Link>
+          <Link
+            href="/settings"
+            className="font-medium text-white hover:text-green-500"
+          >
+            Settings
+          </Link> <Link
+            href="/settings"
+            className="font-medium text-white hover:text-green-500"
+          >
+            Settings
+          </Link> <Link
             href="/settings"
             className="font-medium text-white hover:text-green-500"
           >

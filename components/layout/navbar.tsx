@@ -31,43 +31,43 @@ const CustomNavbar = () => {
 
       {/**Desktop */}
       <div className="hidden w-full items-center justify-between font-semibold lg:flex">
-  <div className="flex flex-row items-center">
-    <div className="mr-10">
-      <h1 className="text-4xl font-bold">
-        <Link href="/" className="text-gray-700">
-          <div className="mb-1">
-            <Image
-              src="https://i.postimg.cc/FRXRmLQ5/log.png"
-              alt="task"
-              width={200}
-              height={75}
-              className="h-[50px] w-[100%] md:h-[50px] lg:h-[60px] lg:w-[50px]"
-            />
+        <div className="flex flex-row items-center">
+          <div className="mr-10">
+            <h1 className="text-4xl font-bold">
+              <Link href="/" className="text-gray-700">
+                <div className="mb-1">
+                  <Image
+                    src="https://i.postimg.cc/FRXRmLQ5/log.png"
+                    alt="task"
+                    width={200}
+                    height={75}
+                    className="h-[50px] w-[100%] md:h-[50px] lg:h-[60px] lg:w-[50px]"
+                  />
+                </div>
+              </Link>
+            </h1>
           </div>
-        </Link>
-      </h1>
-    </div>
 
-   
-  </div>
 
-  {/* Right-side links */}
-  <div className="flex items-center space-x-3">
-    <Link
-      href="/profile"
-      className="font-medium text-gray-700 hover:text-green-500"
-    >
-      Profile
-    </Link>
+        </div>
 
-    <Link
-      href="/settings"
-      className="font-medium text-gray-700 hover:text-green-500"
-    >
-      Settings
-    </Link>
-  </div>
-</div>
+        {/* Right-side links */}
+        <div className="flex items-center space-x-3">
+          <Link
+            href="/profile"
+            className="font-medium text-white hover:text-green-500"
+          >
+            Profile
+          </Link>
+
+          <Link
+            href="/settings"
+            className="font-medium text-white hover:text-green-500"
+          >
+            Settings
+          </Link>
+        </div>
+      </div>
 
     </div>
   );

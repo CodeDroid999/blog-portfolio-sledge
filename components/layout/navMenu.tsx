@@ -7,12 +7,12 @@ const NavigationMenu: React.FC = () => {
       <ul className="navbar-nav p-1">
         <li className="nav-item active p-2">
           <Link href="#home" passHref>
-            <span className="nav-link text-left">Home <span className="sr-only">(current)</span></span>
+            <span className="nav-link  pl-3">Home <span className="sr-only">(current)</span></span>
           </Link>
         </li>
         <li className="nav-item p-2">
           <Link href="#about" passHref>
-            <span className="nav-link">About</span>
+            <span className="nav-link  pl-3">About</span>
           </Link>
         </li>
         <li className="nav-item p-2">
@@ -27,7 +27,7 @@ const NavigationMenu: React.FC = () => {
         </li>
         <li className="nav-item p-2">
           <Link href="#contact" passHref>
-            <span className="nav-link">Contact us</span>
+            <span className="nav-link  pl-3">Contact us</span>
           </Link>
         </li>
       </ul>

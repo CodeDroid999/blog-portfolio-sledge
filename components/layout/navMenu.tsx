@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 const NavigationMenu: React.FC = () => {
   return (
-    <div className="">
+    <div className="bg-white w-100">
       <ul className="navbar-nav">
         <li className="nav-item active">
           <Link href="#home" passHref>
-            <span className="nav-link">Home <span className="sr-only">(current)</span></span>
+            <span className="nav-link text-left">Home <span className="sr-only">(current)</span></span>
           </Link>
         </li>
         <li className="nav-item">

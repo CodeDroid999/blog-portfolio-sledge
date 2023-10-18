@@ -29,29 +29,10 @@ const CustomNavbar = () => {
             </div>
           </Link>
         </div>
-     
-        {/* Mobile Menu (Dropdown) */}
-        {isMenuOpen && (
-          <div className="lg:hidden">
-            <div className="bg-white p-4 space-y-2">
-              <Link href="/" className="font-medium text-gray-700 hover:text-green-500">
-                HOME
-              </Link>
-              <Link href="/settings" className="font-medium text-gray-700 hover:text-green-500">
-                ABOUT
-              </Link>
-              {/* Add more links here */}
-            </div>
-          </div>
-        )}
+
         {/* Right div */}
         <div className="flex justify-end lg:hidden">
-          <div className="rounded-full p-3 text-white">
-          <button onClick={toggleMenu} className="text-gray-700">
-            i minute
-          <FontAwesomeIcon icon="fa-solid fa-bars" style={{color: "#f2a807",}} />
-          </button>
-          </div>
+        <FontAwesomeIcon icon="fa-solid fa-bars" style={{color: "#f2a807",}} />
         </div>
       </div>
 
@@ -66,7 +47,7 @@ const CustomNavbar = () => {
                     src="https://i.postimg.cc/FRXRmLQ5/log.png"
                     alt="task"
                     width={200}
-                    height={75}
+                    height={100}
                     className="h-[50px] w-[100%] md:h-[50px] lg:h-[60px] lg:w-[50px]"
                   />
                 </div>

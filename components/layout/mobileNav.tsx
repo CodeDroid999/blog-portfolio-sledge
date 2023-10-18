@@ -24,13 +24,13 @@ const MobileNavbar = () => {
       </div>
 
       {/* Right div (Sticky bar) */}
-      <div className="flex items-center justify-end">
+      <div className="flex items-center justify-end mr-3">
         <div className="flex flex-col items-center">
           <FontAwesomeIcon
             icon={faBars}
-            style={{ color: "#f2a807", fontSize: "24px" }}
+            size="2x"
+            style={{ color: "#f2a807", fontSize: "36px" }}
           />
-          <span>Menu</span>
         </div>
       </div>
     </div>

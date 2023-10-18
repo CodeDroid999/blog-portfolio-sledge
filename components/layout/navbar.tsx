@@ -31,47 +31,44 @@ const CustomNavbar = () => {
 
       {/**Desktop */}
       <div className="hidden w-full items-center justify-between font-semibold lg:flex">
-        <div className="flex flex-row items-center">
-          <div className="mr-10">
-            <h1 className="text-4xl font-bold">
-              <Link href="/" className="text-gray-700">
-                <div className="mb-1">
-                  <Image
-                    src="https://i.postimg.cc/FRXRmLQ5/log.png"
-                    alt="task"
-                    width={200} // Set the width
-                    height={75} // Set the height
-                    className="h-[50px] w-[100%] md:h-[50px] lg:h-[60px] lg:w-[50px]"
-                  />
-                </div>
-              </Link>
-            </h1>
+  <div className="flex flex-row items-center">
+    <div className="mr-10">
+      <h1 className="text-4xl font-bold">
+        <Link href="/" className="text-gray-700">
+          <div className="mb-1">
+            <Image
+              src="https://i.postimg.cc/FRXRmLQ5/log.png"
+              alt="task"
+              width={200}
+              height={75}
+              className="h-[50px] w-[100%] md:h-[50px] lg:h-[60px] lg:w-[50px]"
+            />
           </div>
+        </Link>
+      </h1>
+    </div>
 
-          <div className="flex flex-row items-center space-x-5">
-            <Link
-              href="/post-task"
-              className="rounded-3xl bg-green-500  px-5 py-[6px] font-medium text-white hover:bg-sky-500"
-            >
-              Post a task
-            </Link>
+   
+  </div>
 
-            <Link
-              href="/browse-tasks"
-              className="font-medium text-gray-700 hover:text-green-500"
-            >
-              Browse tasks
-            </Link>
+  {/* Right-side links */}
+  <div className="flex items-center space-x-3">
+    <Link
+      href="/profile"
+      className="font-medium text-gray-700 hover:text-green-500"
+    >
+      Profile
+    </Link>
 
-            <Link
-              href="/blog"
-              className="font-medium text-gray-700 hover:text-green-500"
-            >
-              Blog
-            </Link>
-          </div>
-        </div>
-      </div>
+    <Link
+      href="/settings"
+      className="font-medium text-gray-700 hover:text-green-500"
+    >
+      Settings
+    </Link>
+  </div>
+</div>
+
     </div>
   );
 };

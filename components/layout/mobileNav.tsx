@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -7,11 +7,17 @@ import NavMenu from './navMenu';
 import NavigationMenu from './navMenu';
 
 const MobileNavbar = () => {
+  // State variable to track the visibility of the menu
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+
+  // Function to toggle the menu visibility
+  const toggleMenu = () => {
+    setIsMenuVisible(!isMenuVisible);
+  };
+
   return (
     <div className="min-w-full items-center justify-between lg:hidden">
       <div className="flex min-w-full items-center justify-between">
-
-
         {/* Left div */}
         <div className="flex flex-row items-center space-x-1">
           <Link href="/" className="text-gray-700">
@@ -34,16 +40,19 @@ const MobileNavbar = () => {
             <FontAwesomeIcon
               icon={faBars}
               size="2x"
-              style={{ color: "#f2a807", fontSize: "36px" }}
+              style={{ color: "#f2a807", fontSize: "36px", cursor: "pointer" }}
+              onClick={toggleMenu}  // Call toggleMenu function on click
             />
           </div>
         </div>
-        
-
       </div>
-      <div className="flex">
+
+      {/* Conditional rendering of the NavigationMenu based on isMenuVisible */}
+      {isMenuVisible && (
+        <div className="flex">
           <NavigationMenu />
         </div>
+      )}
     </div>
   );
 };

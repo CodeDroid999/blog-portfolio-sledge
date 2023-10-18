@@ -1,35 +1,33 @@
-import Link from 'next/link';
 import React from 'react';
+import Link from 'next/link';
 
-const NavMenu: React.FC = () => {
+const NavigationMenu: React.FC = () => {
   return (
-    <div className="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+    <div className="">
       <ul className="navbar-nav">
         <li className="nav-item active">
-          <Link href="#home">
-            <a className="nav-link">
-              Home <span className="sr-only">(current)</span>
-            </a>
+          <Link href="#home" passHref>
+            <span className="nav-link">Home <span className="sr-only">(current)</span></span>
           </Link>
         </li>
         <li className="nav-item">
-          <Link href="#about">
-            <a className="nav-link">About</a>
+          <Link href="#about" passHref>
+            <span className="nav-link">About</span>
           </Link>
         </li>
         <li className="nav-item">
-          <Link href="#services">
-            <a className="nav-link">Services</a>
+          <Link href="#services" passHref>
+            <span className="nav-link">Services</span>
           </Link>
         </li>
         <li className="nav-item">
-          <Link href="#projects">
-            <a className="nav-link">Projects</a>
+          <Link href="#projects" passHref>
+            <span className="nav-link">Projects</span>
           </Link>
         </li>
         <li className="nav-item">
-          <Link href="#contact">
-            <a className="nav-link">Contact us</a>
+          <Link href="#contact" passHref>
+            <span className="nav-link">Contact us</span>
           </Link>
         </li>
       </ul>
@@ -37,4 +35,4 @@ const NavMenu: React.FC = () => {
   );
 };
 
-export default NavMenu;
+export default NavigationMenu;

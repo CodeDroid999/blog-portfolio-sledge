@@ -5,7 +5,7 @@ const NavigationMenu: React.FC = () => {
   return (
     <div className="bg-white w-100 bg-blue-100">
       <ul className="navbar-nav p-1 bg-blue-100">
-        <li className="nav-item active p-2 bg-blue-200">
+        <li className="nav-item active p-2">
           <Link href="#home" passHref>
             <span className="nav-link  pl-3">Home <span className="sr-only">(current)</span></span>
           </Link>

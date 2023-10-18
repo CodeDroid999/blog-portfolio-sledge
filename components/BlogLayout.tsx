@@ -1,6 +1,7 @@
 import AlertBanner from 'components/AlertBanner'
-import CustomNavbar from './layout/navbar'
+
 import Home from './layout/home-section'
+import CustomNavbar from './layout/navbar'
 
 export default function BlogLayout({
   preview,
@@ -13,9 +14,9 @@ export default function BlogLayout({
 }) {
   return (
     <>
-      <div className="min-h-screen bg-blue-100">
+      <div className="min-h-screen bg-gray-800">
         <div className="mb-8">
-          <Home/>
+          <Home />
         </div>        <AlertBanner preview={preview} loading={loading} />
         <main>{children}</main>
       </div>

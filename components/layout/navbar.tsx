@@ -69,7 +69,7 @@ const CustomNavbar = () => {
             BLOG
           </Link>
           <Link
-            href="/settings"
+            href="/contact-us"
             className="font-medium text-white hover:text-green-500"
           >
             CONTACT US

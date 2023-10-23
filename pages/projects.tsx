@@ -3,6 +3,7 @@ import ProjectsSection from 'components/home/projects-section'
 import Home from 'components/layout/home-section'
 import CustomNavbar from 'components/layout/navbar'
 import Projects from 'components/projects/projects-page'
+import Shorts from 'components/projects/shorts-projects'
 import Head from 'next/head'
 
 import HeroArea from '../components/home/hero-section'
@@ -15,6 +16,7 @@ export default function Index() {
         <Home />
       </div>
       <Projects />
+      <Shorts />
     </Layout>
   )
 }

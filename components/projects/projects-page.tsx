@@ -111,17 +111,17 @@ const Projects: React.FC = () => {
                             <div className="img-box">
                                 <iframe width="360"
                                     height="250"
-                                    src="https://www.youtube.com/embed/fnIqkRLIC5Y"
-                                    title="Revenge (A short Film by Sledge Entertainment)" frameborder="0"
+                                    src="https://www.youtube.com/embed/hFaFfyjSYzQ"
+                                    title="(Celebrating Life (Episode 4) FRANCIS ODHIAMBO)" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowfullscreen></iframe>
 
                             </div>
                             <div className="detail-box">
                                 <h5>
-                                    Revenge                                </h5>
+                                Celebrating Life (Episode 4)                              </h5>
                                 <h6>
-                                    <a href="https://youtu.be/jmFkofn8wqc?si=nwmLXqxBLqcfyMx0">Trailer</a>
+                                    <a href="https://youtu.be/hFaFfyjSYzQ">Trailer</a>
                                 </h6>
                             </div>
                         </div>

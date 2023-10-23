@@ -13,12 +13,6 @@ import ContactForm from '../components/layout/contact-form'
 export default function Projects() {
   return (
       <Layout>
-        <HeroArea />
-        <AboutSection />
-        <ServiceSection />
-        <MissionSection/>
-        <ReviewsSection/>
-        <VisionSection/>
         <ProjectsSection/>
         <ContactForm />
       </Layout>

@@ -14,12 +14,8 @@ export default function Services() {
   return (
       <Layout>
         <HeroArea />
-        <AboutSection />
         <ServiceSection />
-        <MissionSection/>
         <ReviewsSection/>
-        <VisionSection/>
-        <ProjectsSection/>
         <ContactForm />
       </Layout>
   )

@@ -15,12 +15,10 @@ export default function About() {
       <Layout>
         <HeroArea />
         <AboutSection />
-        <ServiceSection />
         <MissionSection/>
-        <ReviewsSection/>
         <VisionSection/>
+        <ReviewsSection/>
         <ProjectsSection/>
-        <ContactForm />
       </Layout>
   )
 }

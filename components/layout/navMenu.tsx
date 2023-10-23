@@ -6,22 +6,22 @@ const NavigationMenu: React.FC = () => {
     <div className="bg-white w-100 bg-blue-100">
       <ul className="navbar-nav p-1 bg-blue-100">
         <li className="nav-item active p-2 ">
-          <Link href="#home" passHref>
+          <Link href="/" passHref>
             <span className="nav-link  pl-3">Home <span className="sr-only">(current)</span></span>
           </Link>
         </li>
         <li className="nav-item p-2">
-          <Link href="#about" passHref>
+          <Link href="/about" passHref>
             <span className="nav-link  pl-3">About</span>
           </Link>
         </li>
         <li className="nav-item p-2">
-          <Link href="#services" passHref>
+          <Link href="/services" passHref>
             <span className="nav-link pl-3">Services</span>
           </Link>
         </li>
         <li className="nav-item p-2">
-          <Link href="#projects" passHref>
+          <Link href="/projects" passHref>
             <span className="nav-link pl-3">Projects</span>
           </Link>
         </li>
@@ -31,7 +31,7 @@ const NavigationMenu: React.FC = () => {
           </Link>
         </li>
         <li className="nav-item p-2">
-          <Link href="#contact" passHref>
+          <Link href="/contact-us" passHref>
             <span className="nav-link  pl-3">Contact us</span>
           </Link>
         </li>

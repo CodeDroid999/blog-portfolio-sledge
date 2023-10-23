@@ -13,7 +13,7 @@ const Layout = ({children }: Props) => {
   return (
     <>
       <Meta />
-      <div className="min-h-screen">
+      <div className="min-h-screen bg-trueGray-100">
         <main>{children}</main>
       </div>
       <Footer />

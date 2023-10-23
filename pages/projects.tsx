@@ -11,8 +11,10 @@ import Layout from '../components/layout'
 export default function Index() {
   return (
     <Layout>
-     <Home />
-        <Projects />
+      <div className="bg-gray-800">
+        <Home />
+      </div>
+      <Projects />
     </Layout>
   )
 }

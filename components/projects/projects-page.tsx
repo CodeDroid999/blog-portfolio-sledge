@@ -112,9 +112,9 @@ const Projects: React.FC = () => {
                                 <iframe width="360"
                                     height="250"
                                     src="https://www.youtube.com/embed/hFaFfyjSYzQ"
-                                    title="(Celebrating Life (Episode 4) FRANCIS ODHIAMBO)" frameborder="0"
+                                    title="(Celebrating Life (Episode 4) FRANCIS ODHIAMBO)" 
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
+                                    allowFullScreen></iframe>
 
                             </div>
                             <div className="detail-box">
@@ -131,7 +131,7 @@ const Projects: React.FC = () => {
                             <div className="img-box">
                                 <iframe width="360"
                                     height="250"
-                                    src="https://www.youtube.com/embed/f-KlXHmc_iA" title="Sue Na Johnnie Ending" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    src="https://www.youtube.com/embed/f-KlXHmc_iA" title="Sue Na Johnnie Ending" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
                             </div>
                             <div className="detail-box">

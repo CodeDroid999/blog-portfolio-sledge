@@ -1,4 +1,6 @@
+import Alert from 'components/alert'
 import ProjectsSection from 'components/home/projects-section'
+import Home from 'components/layout/home-section'
 import CustomNavbar from 'components/layout/navbar'
 import Projects from 'components/projects/projects-page'
 import Head from 'next/head'
@@ -8,11 +10,9 @@ import Layout from '../components/layout'
 
 export default function Index() {
   return (
-      <Layout>
-        <div className="header_bottom bg-gray-800">
-                <CustomNavbar />
-            </div>
+    <Layout>
+     <Home />
         <Projects />
-      </Layout>
+    </Layout>
   )
 }

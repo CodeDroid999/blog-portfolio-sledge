@@ -84,6 +84,76 @@ const Projects: React.FC = () => {
               </div>
             </div>
           </div>
+          <div className="col-md-4 col-sm-6 mx-auto">
+            <div className="box">
+              <div className="img-box">
+                <iframe
+                  width="360"
+                  height="250"
+                  src="https://www.youtube.com/embed/jmFkofn8wqc?si=nwmLXqxBLqcfyMx0"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="detail-box">
+                <h5>
+                  Real Talk
+                </h5>
+                <h6>
+                  <a href="https://youtu.be/jmFkofn8wqc?si=nwmLXqxBLqcfyMx0">Trailer</a>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 col-sm-6 mx-auto">
+            <div className="box">
+              <div className="img-box">
+                <iframe
+                  width="360"
+                  height="250"
+                  src="https://www.youtube.com/embed/jmFkofn8wqc?si=nwmLXqxBLqcfyMx0"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="detail-box">
+                <h5>
+                  Real Talk
+                </h5>
+                <h6>
+                  <a href="https://youtu.be/jmFkofn8wqc?si=nwmLXqxBLqcfyMx0">Trailer</a>
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 col-sm-6 mx-auto">
+            <div className="box">
+              <div className="img-box">
+                <iframe
+                  width="360"
+                  height="250"
+                  src="https://www.youtube.com/embed/jmFkofn8wqc?si=nwmLXqxBLqcfyMx0"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className="detail-box">
+                <h5>
+                  Real Talk
+                </h5>
+                <h6>
+                  <a href="https://youtu.be/jmFkofn8wqc?si=nwmLXqxBLqcfyMx0">Trailer</a>
+                </h6>
+              </div>
+            </div>
+          </div>
+          
         </div>
         <div className="btn-box">
           <a href="https://www.youtube.com/@SilusSledgeAmbani">

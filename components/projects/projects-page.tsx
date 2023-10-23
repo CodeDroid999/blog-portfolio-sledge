@@ -1,4 +1,5 @@
 import React from 'react';
+import Shorts from './shorts-projects';
 
 const Projects: React.FC = () => {
     return (
@@ -146,6 +147,7 @@ const Projects: React.FC = () => {
                     </div>
 
                 </div>
+                <Shorts/>
                 <div className="btn-box">
                     <a href="https://www.youtube.com/@SilusSledgeAmbani">
                         View All

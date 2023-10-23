@@ -86,7 +86,7 @@ const ProjectsSection: React.FC = () => {
           </div>
         </div>
         <div className="btn-box">
-          <a href="https://www.youtube.com/@SilusSledgeAmbani">
+          <a href="/projects">
             View All
           </a>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Shorts: React.FC = () => {
     return (
-        <section id="projects" className="team_section layout_padding">
+        <section id="projects" className="team_section">
             <div className="container">
               
                 <div className="row">
@@ -14,9 +14,9 @@ const Shorts: React.FC = () => {
                             </div>
                             <div className="detail-box">
                                 
-                                <h6>
-                                    <a href="https://youtu.be/eZWZpbnJ_Cg">There is beauty in everything</a>
-                                </h6>
+                                <h5>
+                                    <a href="https://youtu.be/eZWZpbnJ_Cg" className="text-white">There is beauty in everything</a>
+                                </h5>
                             </div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ const Shorts: React.FC = () => {
                             <div className="detail-box">
                                
                                 <h5>
-                                    <a href="https://youtu.be/rdnrM0lI3I4">Maybe Reality is just an illusion</a>
+                                    <a href="https://youtu.be/rdnrM0lI3I4" className="text-white">Maybe Reality is just an illusion</a>
                                 </h5>
                             </div>
                         </div>
@@ -40,23 +40,15 @@ const Shorts: React.FC = () => {
                             <iframe width="324" height="576" src="https://www.youtube.com/embed/GL7ffn_ZlNw" title="How do you call someone who has made you angry - Kenyan dictionary 😂😂😂😂" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                                 </div>
                             <div className="detail-box">
+                                
                                 <h5>
-                                    Sue na Johnnie
+                                    <a href="https://youtu.be/jmFkofn8wqc?si=nwmLXqxBLqcfyMx0" className="text-white">How do you call someone who has made you angry - Kenyan dictionary 😂😂😂😂</a>
                                 </h5>
-                                <h6>
-                                    <a href="https://youtu.be/jmFkofn8wqc?si=nwmLXqxBLqcfyMx0">Trailer</a>
-                                </h6>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div className="btn-box">
-                    <a href="https://www.youtube.com/@SilusSledgeAmbani">
-                        View All
-                    </a>
-                </div>
-            </div>
+                          </div>
         </section>
     );
 };

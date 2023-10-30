@@ -19,7 +19,7 @@ const Alert = ({ preview }: Props) => {
           <span className="pl-2">
             Nairobi, Kenya </span>
         </a>
-        <a href="" className="contact_link2">
+        <a href="https://wa.me/0719230590" className="contact_link2">
           <FontAwesomeIcon icon={faPhone} size="2x" style={{ color: '#e8b602' }} />
           <span className="pl-2">
             Call : (+254) 719 230590

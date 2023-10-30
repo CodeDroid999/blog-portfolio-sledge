@@ -14,7 +14,7 @@ export default function BlogLayout({
 }) {
   return (
     <>
-      <div className="min-h-screen bg-gray-800">
+      <div className="min-h-screen bg-orange-50">
         <div className="mb-8">
           <Home />
         </div>        <AlertBanner preview={preview} loading={loading} />

@@ -16,9 +16,7 @@ export default function Contactus() {
   return (
     <Layout>
       <div className="h">
-        <div className="header_top">
-          <Alert />
-        </div>
+      
         <LightCustomNavbar />
       </div>
       <ContactForm />

@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 import MobileNavbar from './mobileNav';
 
-const CustomNavbar = () => {
+const LightCustomNavbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -25,7 +25,7 @@ const CustomNavbar = () => {
               <Link href="/" className="text-gray-700">
                 <div className="mb-1">
                   <Image
-                    src="https://i.postimg.cc/FRXRmLQ5/log.png"
+                    src="https://i.postimg.cc/XNkwcFKP/favicon.png"
                     alt="task"
                     width={200}
                     height={100}
@@ -82,4 +82,4 @@ const CustomNavbar = () => {
   );
 };
 
-export default CustomNavbar;
+export default LightCustomNavbar;

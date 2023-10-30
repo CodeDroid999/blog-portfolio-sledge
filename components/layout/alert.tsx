@@ -14,7 +14,7 @@ const Alert = ({ preview }: Props) => {
   return (
     <div className="container-fluid">
       <div className="contact_link-container">
-        <a href="" className="contact_link1">
+        <a href="https://maps.app.goo.gl/RR6QXHVEXpAxqWVz6" className="contact_link1">
         <FontAwesomeIcon icon={faLocationDot} size="2x" style={{ color: '#e8b602' }} />
           <span className="pl-2">
             Nairobi, Kenya </span>

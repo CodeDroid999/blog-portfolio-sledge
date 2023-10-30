@@ -15,8 +15,8 @@ export default function BlogLayout({
 }) {
   return (
     <>
-      <div className="min-h-screen bg-orange-50">
-        <div className="mb-8 bg-gray-200">
+      <div className="min-h-screen bg-gray-100">
+        <div className="mb-8 bg-white">
           <LightCustomNavbar/>
         </div>        
         <main>{children}</main>

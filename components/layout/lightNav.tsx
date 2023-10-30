@@ -40,38 +40,38 @@ const LightCustomNavbar = () => {
         </div>
 
         {/* Right-side links */}
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-2">
           <Link
             href="/"
-            className="font-medium text-white hover:text-green-500"
+            className="px-2 py-1 font-medium text-gray-700 hover:bg-gray-200"
           >
             HOME
           </Link>
 
           <Link
             href="/about"
-            className="font-medium text-white hover:text-green-500"
+            className="px-2 py-1 font-medium text-gray-700 hover:bg-gray-200"
           >
             ABOUT
           </Link>
           <Link
             href="/services"
-            className="font-medium text-white hover:text-green-500"
+            className=" px-2 py-1 font-medium text-gray-700 hover:bg-gray-200"
           >
             SERVICES
           </Link> <Link
             href="/projects"
-            className="font-medium text-white hover:text-green-500"
+            className="px-2 py-1 font-medium text-gray-700 hover:bg-gray-200"
           >
             PROJECTS          </Link> <Link
               href="/blog"
-              className="font-medium text-white hover:text-green-500"
+              className="px-2 py-1 font-medium text-gray-700 hover:bg-gray-200"
             >
             BLOG
           </Link>
           <Link
             href="/contact-us"
-            className="font-medium text-white hover:text-green-500"
+            className="px-2 py-1 font-medium text-gray-700  hover:text-blue-800 hover:bg-gray-200"
           >
             CONTACT US
           </Link>

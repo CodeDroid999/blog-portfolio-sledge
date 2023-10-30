@@ -588,7 +588,7 @@ a:focus {
 
       &::placeholder {
         color: $black;
-        text-transform: uppercase;
+        text-transform: lowercase;
       }
 
       &.message_input {

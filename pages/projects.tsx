@@ -8,10 +8,10 @@ export default function Index() {
   return (
     <Layout>
       <div className="">
-      <div className="header_top">
-                <Alert/>
-            </div>
-        <LightCustomNavbar/>
+        <div className="header_top">
+          <Alert />
+        </div>
+        <LightCustomNavbar />
       </div>
       <Projects />
     </Layout>

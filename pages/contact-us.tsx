@@ -1,3 +1,5 @@
+import Alert from 'components/layout/alert'
+import LightCustomNavbar from 'components/layout/lightNav'
 import Head from 'next/head'
 
 import AboutSection from '../components/home/about-section'
@@ -12,8 +14,14 @@ import ContactForm from '../components/layout/contact-form'
 
 export default function Contactus() {
   return (
-      <Layout>
-        <ContactForm />
-      </Layout>
+    <Layout>
+      <div className="h">
+        <div className="header_top">
+          <Alert />
+        </div>
+        <LightCustomNavbar />
+      </div>
+      <ContactForm />
+    </Layout>
   )
 }

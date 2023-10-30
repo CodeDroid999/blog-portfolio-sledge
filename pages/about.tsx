@@ -16,8 +16,8 @@ export default function About() {
         <HeroArea />
         <AboutSection />
         <MissionSection/>
-        <VisionSection/>
         <ReviewsSection/>
+        <VisionSection/>
         <ProjectsSection/>
       </Layout>
   )

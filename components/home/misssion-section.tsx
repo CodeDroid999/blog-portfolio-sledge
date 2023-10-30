@@ -2,7 +2,7 @@ import React from 'react';
 
 const MissionSection: React.FC = () => {
   return (
-    <section id="mission" className="about_section layout_padding" style={{ backgroundColor: '#9d9999' }}>
+    <section id="mission" className="about_section layout_padding bg-gray-100" >
       <div className="container">
         <div className="row">
           <div className="col-md-6 px-0">

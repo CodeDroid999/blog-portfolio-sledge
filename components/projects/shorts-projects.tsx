@@ -2,7 +2,7 @@ import React from 'react';
 
 const Shorts: React.FC = () => {
     return (
-        <section id="projects" className="team_section">
+        <section id="projects" className="team_section bg-gray-100">
             <div className="container">
               
                 <div className="row">

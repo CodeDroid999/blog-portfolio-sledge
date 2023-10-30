@@ -3,7 +3,7 @@ import Shorts from './shorts-projects';
 
 const Projects: React.FC = () => {
     return (
-        <section id="projects" className="team_section layout_padding">
+        <section id="projects" className="team_section layout_padding bg-gray-100">
             <div className="container">
                 <div className="heading_container heading_center">
                     <h2>

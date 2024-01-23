@@ -2,18 +2,17 @@
 import React, { ReactNode } from 'react';
 
 interface ServiceBoxProps {
-  svg: ReactNode;
   title: string;
   description: string;
 }
 
-const ServiceBox: React.FC<ServiceBoxProps> = ({ svg, title, description }) => {
+const ServiceBox: React.FC<ServiceBoxProps> = ({ title, description }) => {
   return (
     <div className="col-md-6">
       <div className="box">
-        <div className="img-box">
+        {/**<div className="img-box">
           {svg}
-        </div>
+  </div>**/}
         <div className="detail-box">
           <h6>{title}</h6>
           <p>{description}</p>

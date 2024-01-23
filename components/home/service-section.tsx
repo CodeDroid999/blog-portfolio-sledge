@@ -44,7 +44,7 @@ const ServiceSection: React.FC = () => {
           />
           <ServiceBox
             title="PHOTOGRAPHY"
-            description="ledge Entertainment Limited also offers expert photography services. Our experienced team excels in capturing 
+            description="Sledge Entertainment Limited also offers expert photography services. Our experienced team excels in capturing 
             the essence of your project with precision and creativity, delivering stunning visuals that enhance your storytelling."
           />
           <ServiceBox
